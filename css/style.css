@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --color-morado: #5d04d9;
+  --color-azul-oscuro: #03318c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--color-morado);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+
+body {
+  font-family: "Press Start 2P", system-ui;
+  font-style: normal;
+  background-color: #FFF2E1;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.main-section{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (width > 1270px){
+ 
+  .contenido{
+    display: flex;
+  }
+
+
+  .contenido{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  
+   .main-section{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .main-section{
+    flex-direction: column;
+    background-color: rebeccapurple;
+  } 
+  
+  .header-conte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+
+  .section-agregar{
+    margin-top: 200px;
+    width: 30%;
+    margin-right: 30px;
+
+ 
+  }
+  
+  .section-agregar h2{
+    text-align: center;
+    position: fixed;
+    right: 110px;
+  }
+  
+  .content-add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 220px;
+    right: 150px;
+  }
+  
+  .content-add form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  .content-add form input{
+    margin-bottom: 20px;
+    width: 350px;
+    height: 35px;
+    border-radius: 15px;
+    border-width: 1px;
+    outline: none;
+    border-color: #03318c;
+    padding: 10px;
+  }
+  
+  .content-add form input::placeholder{
+    font-size: 1.1rem;
+    color: #03318c;
+  }
+  
+  .btn button:first-child{
+    width: 164px;
+    height: 55px;
+    background-color: #03318c;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .btn button:last-child{
+    width: 164px;
+    height: 55px;
+    background-color: #ffffff;
+    color: #03318c;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+  
+  }
+  
+  .section-card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  
+  .content {
+    width:80%;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: -12px 10px 5.8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .content h2 {
+    position: absolute;
+    top: -20px;
+  }
+  
+  .card {
+    width: 300px;
+    height: 358px;
+    background-color: #5d04d9;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(0, 0, 1);
+    margin: 40px 15px;
+  }
+  
+  .card-img {
+    height: 220px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .card-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 6);
+  }
+  
+  .card-info {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 43%;
+  }
+  
+  .precio-delete {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+  
+  .card-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .icon-delete {
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  
+
+
+}
+
+
+
+/* Movil */
+@media (width <= 1268px)  {
+
+
+  .header-conte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .main-section{
+    flex-direction: column;
+    background-color: rebeccapurple;
+  }
+
+
+  .section-agregar{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+  }
+
+  .section-agregar h2{
+    text-align: center;
+  }
+
+  .content-add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-add form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .content-add form input{
+    margin-bottom: 20px;
+    width: 350px;
+    height: 35px;
+    border-radius: 15px;
+    border-width: 1px;
+    outline: none;
+    border-color: #03318c;
+    padding: 10px;
+  }
+
+  .content-add form input::placeholder{
+    font-size: 1.1rem;
+    color: #03318c;
+  }
+
+  .btn button:first-child{
+    width: 164px;
+    height: 55px;
+    background-color: #03318c;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+  }
+
+  .btn button:last-child{
+    width: 164px;
+    height: 55px;
+    background-color: #ffffff;
+    color: #03318c;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+  
+  }
+
+  .section-card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .content h2 {
+    position: absolute;
+    top: -20px;
+  }
+
+  .card {
+    width: 300px;
+    height: 368px;
+    background-color: #5d04d9;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgb(0, 0, 1);
+    margin: 40px 15px;
+  }
+
+  .card-img {
+    height: 220px;
+    overflow: hidden;
+    padding: 20px;
+  }
+
+  .card-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 6);
+  }
+
+  .card-info {
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 43%;
+  }
+
+  .precio-delete {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+
+  .card-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .icon-delete {
+    cursor: pointer;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+}

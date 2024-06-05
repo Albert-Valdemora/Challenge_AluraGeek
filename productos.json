@@ -1,0 +1,106 @@
+{
+  "Productos": [
+    {
+      "nombre": "Pikachu",
+      "precio": "$200",
+      "imagen": "https://i.pinimg.com/originals/f4/95/52/f49552c63e353a6c2b73eada2f8f4671.jpg",
+      "id": "1"
+    },
+    {
+      "nombre": "Charmander",
+      "precio": "$150",
+      "imagen": "https://i.pinimg.com/474x/cd/69/3e/cd693e769495d644302de8592fcae7d0.jpg",
+      "id": "2"
+    },
+    {
+      "nombre": "Bulbasaur",
+      "precio": "$180",
+      "imagen": "https://i.pinimg.com/236x/be/3f/41/be3f41f9e1acdd2688ef9d3e1bf6a559.jpg",
+      "id": "3"
+    },
+    {
+      "nombre": "Squirtle",
+      "precio": "$170",
+      "imagen": "https://i.pinimg.com/736x/3a/92/60/3a92602db76f873001d5dcbb56a31ea2.jpg",
+      "id": "4"
+    },
+    {
+      "nombre": "Jigglypuff",
+      "precio": "$140",
+      "imagen": "https://i.pinimg.com/236x/52/5c/23/525c23d519814cec4c81f8bfe797d562.jpg",
+      "id": "5"
+    },
+    {
+      "nombre": "Meowth",
+      "precio": "$160",
+      "imagen": "https://i.pinimg.com/236x/a3/07/31/a3073173e57c78cd9a362d84ef1016a0.jpg",
+      "id": "6"
+    },
+    {
+      "nombre": "Psyduck",
+      "precio": "$155",
+      "imagen": "https://www.pokemoncenter.com/images/DAMRoot/High/10000/P6474_710-06469_01.jpg",
+      "id": "7"
+    },
+    {
+      "nombre": "Snorlax",
+      "precio": "$250",
+      "imagen": "https://i.pinimg.com/736x/12/8d/e8/128de8ce51ee0c498a4dfa67610f5843.jpg",
+      "id": "8"
+    },
+    {
+      "nombre": "Eevee",
+      "precio": "$170",
+      "imagen": "https://i.pinimg.com/550x/40/ea/af/40eaaf41dee2c19456c11e863b61c581.jpg",
+      "id": "9"
+    },
+    {
+      "nombre": "Vaporeon",
+      "precio": "$220",
+      "imagen": "https://i.pinimg.com/550x/da/81/e4/da81e459dbe0554a0dd2bbeb7d1d644a.jpg",
+      "id": "10"
+    },
+    {
+      "nombre": "Jolteon",
+      "precio": "$210",
+      "imagen": "https://i.etsystatic.com/19017415/r/il/851ec7/2943971296/il_570xN.2943971296_dnow.jpg",
+      "id": "11"
+    },
+    {
+      "nombre": "Flareon",
+      "precio": "$210",
+      "imagen": "https://img.wattpad.com/6ded51b5cffc9ca5c519a460b11af158b4c42a45/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4a626b4d445a4e536f4333694d773d3d2d3130302e313632616137306366323764373237613932313233353533303436382e6a7067?s=fit&w=720&h=720",
+      "id": "12"
+    },
+    {
+      "nombre": "Porygon",
+      "precio": "$190",
+      "imagen": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-blue-version/5/59/Porygon.gif",
+      "id": "13"
+    },
+    {
+      "nombre": "Espeon",
+      "precio": "$230",
+      "imagen": "https://i.pinimg.com/236x/d5/2f/27/d52f270c12815fcad0d8e135fdad19e5.jpg",
+      "id": "14"
+    },
+    {
+      "nombre": "Umbreon",
+      "precio": "$230",
+      "imagen": "https://i.pinimg.com/550x/7d/f6/94/7df694614565808a001fde950a8af184.jpg",
+      "id": "15"
+    },
+    {
+      "id": "e6f0",
+      "nombre": "Naruto",
+      "precio": "$200",
+      "imagen": "https://i.pinimg.com/236x/f0/86/26/f08626df55d399042bb9ee1ac0f11696.jpg"
+    },
+    {
+      "id": "08d5",
+      "nombre": "Maestro Roshi",
+      "precio": "$150",
+      "imagen": "https://pm1.aminoapps.com/6431/3088a72e09f5f0024926266d8ee1266f9598a1f7_hq.jpg"
+    }
+  ]
+}
